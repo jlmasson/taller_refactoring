@@ -6,6 +6,7 @@
 package piedrapapeltijera;
 
 import piedrapapeltijera.choice.Choice;
+import piedrapapeltijera.player.Player;
 
 /**
  *

@@ -10,6 +10,7 @@ import piedrapapeltijera.choice.Choice;
 import piedrapapeltijera.choice.ChoicePaper;
 import piedrapapeltijera.choice.ChoiceRock;
 import piedrapapeltijera.choice.ChoiceScissor;
+import piedrapapeltijera.player.Player;
 
 /**
  *
