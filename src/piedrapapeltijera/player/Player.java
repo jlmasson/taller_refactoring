@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package piedrapapeltijera;
+package piedrapapeltijera.player;
 
 import piedrapapeltijera.choice.Choice;
 import java.util.HashMap;
@@ -57,11 +57,15 @@ public class Player {
         this.jugadaActual = posiblesJugadas.get(clave);
     }
     
+    public void winRound() {
+        System.out.println(this.nickname + " Wins!\n");
+    }
+    
     @Override
     public String toString() {
         String info;
-        info = this.nickname + ": " + this.jugadaActual;
-        info += "\t" + this.nickname + " total wins: " + this.wins;
+        info = this.nickname + ": " + this.jugadaActual + "\n";
+        info += "Total wins: " + this.wins + "\n";
         return info;
     }
     
